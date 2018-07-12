@@ -8,7 +8,7 @@ import javax.persistence.Persistence;
 public class Main {
     public static void main(String[] args) {
 
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("org.hibernate.tutorial.jpa");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("mybase");
 
 
         Client client = new Client();

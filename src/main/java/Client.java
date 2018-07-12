@@ -12,7 +12,7 @@ import javax.persistence.Table;
 @Table(name = "client_table")
 public class Client {
     @Id
-    @Column(name="id")
+    @Column(name = "id")
     private Integer id;
 
     public Integer getId() {
@@ -23,7 +23,7 @@ public class Client {
         this.id = id;
     }
 
-    @Column(name="name")
+    @Column(name = "name")
     private String name;
 
     public String getName() {
